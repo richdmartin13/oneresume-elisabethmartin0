@@ -48,8 +48,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "elisabethmartin0@icloud.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "Personal Website"
-        text = "https://elisabethmartin0.wixsite.com/empr"
+        url = "https://elisabethmartin0.wixsite.com/empr"
+        text = "Personal Website"
 
 
 
@@ -124,7 +124,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "Bachelor of Arts in Communication <br/>Concentration: Public Relations <br/>Minors: Political Science and Spanish"
+        degree = "Bachelor of Arts in Communication | Concentration: Public Relations | Minors: Political Science and Spanish"
         university = "Berry College"
         dates = "2016 - 2020"
 
