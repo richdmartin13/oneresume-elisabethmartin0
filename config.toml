@@ -258,7 +258,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Communications Intern"
         dates = "Summer 2017"
-        company = "El-Hibri Foundation"
+        company = "El-Hibri Foundation | Washington, D.C."
         details = ""
         [[params.experience.list.items]]
         details = "Used analytics to develop the organization's outreach strategy, analyzed data and recommended adjustments to increase reach"
