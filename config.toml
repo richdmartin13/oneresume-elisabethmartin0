@@ -1,340 +1,215 @@
-# Page settings
-
 baseURL = "/"
-languageCode = "en"
-title = ""
-theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
-
-
-
+languageCode = "en"
+theme = "hugo-devresume-theme"
+title = "Elisabeth Martin | OneResume"
 [params]
-    author = "Richard Martin"
-    description = "Elisabeth Martin | OneResume"
-
-
-    primaryColor = "#4A1539"
-    textPrimaryColor = "#292929"
-
-
-
-
-    [params.profile]
-        enable = true
-        name = "Elisabeth Martin"
-        tagline = "Communications Specialist"
-        avatar = "avatar.jpeg"
-
-
-
-
-
-
-
-    [params.contact]
-        enable = true
-        location = "Charlotte, NC"
-
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:865-291-8727"
-        text = "+1 (865) 291-8727"
-        [[params.contact.list]]
-        icon = "fas fa-envelope-square"
-        url = "mailto:elisabethmartin0@icloud.com"
-        text = "elisabethmartin0@icloud.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://elisabethmartin0.wixsite.com/empr"
-        text = "Personal Website"
-
-
-
-
-
-
-
-    [params.skills]
-        enable = true
-
-        [[params.skills.list]]
-        title = "Technical"
-        [[params.skills.list.items]]
-        details = "Microsoft Office"
-        [[params.skills.list.items]]
-        details = "Proofreading"
-        [[params.skills.list.items]]
-        details = "Project Management"
-        [[params.skills.list.items]]
-        details = "Research & Writing"
-        [[params.skills.list.items]]
-        details = "Customer Service"
-        [[params.skills.list.items]]
-        details = "Social Media"
-        [[params.skills.list.items]]
-        details = "Email Marketing"
-        [[params.skills.list.items]]
-        details = "Content Development"
-        [[params.skills.list.items]]
-        details = "Graphics and Layout Design"
-        [[params.skills.list.items]]
-        details = "Website Editing"
-        [[params.skills.list.items]]
-        details = "Audio & Video Setup"
-        
-        [[params.skills.list]]
-        title = "Attributes"
-        [[params.skills.list.items]]
-        details = "Organized"
-        [[params.skills.list.items]]
-        details = "Eager to Learn"
-        [[params.skills.list.items]]
-        details = "Focused"
-        [[params.skills.list.items]]
-        details = "Mission-Driven"
-        [[params.skills.list.items]]
-        details = "Team Player"
-        [[params.skills.list.items]]
-        details = "Self-Starter"
-        [[params.skills.list.items]]
-        details = "Reliable"
-        [[params.skills.list.items]]
-        details = "Adaptive"
-        [[params.skills.list.items]]
-        details = "Proactive"
-        [[params.skills.list.items]]
-        details = "Detail-Oriented"
-        [[params.skills.list.items]]
-        details = "Meticulous"
-        [[params.skills.list.items]]
-        details = "Thoughtful"
-        [[params.skills.list.items]]
-        details = "Intuitive"
-
-
-
-
-
-
-
-    [params.education]
-        enable = true
-
-        [[params.education.list]]
-        degree = "Bachelor of Arts in Communication | Concentration: Public Relations | Minors: Political Science and Spanish"
-        university = "Berry College"
-        dates = "2016 - 2020"
-
-
-
-
-
-    [params.awards]
-        enable = false
-
-        [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
-
-
-
-
-
-    [params.languages]
-        enable = true
-
-        [[params.languages.list]]
-        name = "English"
-        level = "Native"
-        [[params.languages.list]]
-        name = "Spanish"
-        level = "Fluent"
-
-
-
-
-
-
-
-
-    [params.interests]
-        enable = false
-
-        [[params.interests.list]]
-        name = "Climbing"
-        [[params.interests.list]]
-        name = "Snowboarding"
-        [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Travelling"
-
-
-
-
-
-
-
-
-    [params.summary]
-        enable = true
-        text = "I've grown my interest for corporate social responsibility, clever PR & marketing campaigns, and social issues through varied work experience in nonprofit organizations. If you want to chat about an ad campaign you love, The Daily, event planning in a pandemic, or what you thought of that company's latest statement, we'd probably hit it off. Let's connect!"
-
-
-
-
-
-
-
-
-    [params.experience]
-        enable = true
-
-        [[params.experience.list]]
-        title = "Programs Administrator"
-        dates = "July 2020 - July 2021"
-        company = "Knoxville Bar Association | Knoxville, TN"
-        details = ""
-        [[params.experience.list.items]]
-        details = "Coordinated Continuing Legal Education events and service projects while managing communications with ten committees"
-        [[params.experience.list.items]]
-        details = "Performed administrative tasks including maintaining a database, organizing documents, distributing mail, and providing general support to staff and committees"
-        [[params.experience.list.items]]
-        details = "Wrote, designed, edited, and proofread content for promotional material including ads, emails, brochures, invitations, posters, and social media content"
-        [[params.experience.list.items]]
-        details = "Authored and implemented content for the website. Track and monitor member communications and the website to ensure usability, relevance, and timeliness"
-        [[params.experience.list.items]]
-        details = "Created newsletters with a refreshed, modernized layout, sent weekly to 1,700 members"
-
-        [[params.experience.list]]
-        title = "Media/PR & Community Outreach Intern"
-        dates = "August 2016 - March 2020"
-        company = "Summit Quest | Rome, GA"
-        details = "Summit Quest is a nonprofit providing strength, hope and service for children and families affected by cancer."
-        [[params.experience.list.items]]
-        details = "Planned and prepared for monthly family-focused recreation events"
-        [[params.experience.list.items]]
-        details = "Designed and wrote promotional material for programs including flyers, tee shirts, and social media content"
-        [[params.experience.list.items]]
-        details = "Developed user experience for our website on Squarespace with focus on engaging photos and friendly faces"
-        [[params.experience.list.items]]
-        details = "Assessed children and family needs and fostered meaningful relationships with families"
-
-        [[params.experience.list]]
-        title = "Environmental, Social, and Governance Research Intern"
-        dates = "Fall 2019"
-        company = "Azimut Capital Management | Bologna, Italy"
-        details = ""
-        [[params.experience.list.items]]
-        details = "Defined and summarized ESG (environmental, social, and governance principles) as a concept according to Principles of Responsible Investing"
-        [[params.experience.list.items]]
-        details = "Compared European framework for ESG to Corporate Social Responsibility practices in the United States"
-        [[params.experience.list.items]]
-        details = "Researched and compiled examples of ongoing, successful ESG initiatives"
-
-        [[params.experience.list]]
-        title = "Features Editor"
-        dates = "2018 - 2019"
-        company = "Campus Carrier | Rome, GA"
-        details = ""
-        [[params.experience.list.items]]
-        details = "Wrote, designed, and published 24 feature articles for Berry College's student-run newspaper"
-        [[params.experience.list.items]]
-        details = "Developed interview skills through conversation with students, staff, and faculty, drawing out information needed to write engaging feature stories"
-        [[params.experience.list.items]]
-        details = "Collaborated across teams to build a cohesive and meaningful product"
-
-        [[params.experience.list]]
-        title = "Communications Intern"
-        dates = "Summer 2017"
-        company = "El-Hibri Foundation | Washington, D.C."
-        details = ""
-        [[params.experience.list.items]]
-        details = "Used analytics to develop the organization's outreach strategy, analyzed data and recommended adjustments to increase reach"
-        [[params.experience.list.items]]
-        details = "Filmed and edited lecture videos"
-        [[params.experience.list.items]]
-        details = "Studied cornerstones of diversity and inclusion work"
-
-
-
-
-
-
-
-
-
-
-
-
-    [params.projects]
-        enable = false
-
-        [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-
-
-
-
-
-
-
-
-
-    [params.information]
-        enable = false
-
-        [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
-
-
-
-
-
-
-
-    [params.social]
-        enable = true
-
-        [[params.social.list]]
-        icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/elisabethmartin0"
-        title = "elisabethmartin0"
-
-
-
-
-
+author = "Richard Martin"
+description = "Elisabeth Martin | OneResume"
+primaryColor = "#4A1539"
+textPrimaryColor = "#292929"
+[params.awards]
+enable = false
+[[params.awards.list]]
+body = "Microsoft lorem ipsum"
+date = "2019"
+name = "Award Lorem Ipsum"
+[[params.awards.list]]
+body = "Oracle Aenean"
+date = "2017"
+name = "Award Donec Sodales"
+[params.contact]
+enable = true
+location = "Charlotte, NC"
+[[params.contact.list]]
+icon = "fas fa-phone-square"
+text = "+1 (865) 291-8727"
+url = "tel:865-291-8727"
+[[params.contact.list]]
+icon = "fas fa-envelope-square"
+text = "elisabethmartin0@icloud.com"
+url = "mailto:elisabethmartin0@icloud.com"
+[[params.contact.list]]
+icon = "fas fa-globe"
+text = "Personal Website"
+url = "https://elisabethmartin0.wixsite.com/empr"
+[params.education]
+enable = true
+[[params.education.list]]
+dates = "2016 - 2020"
+degree = "Bachelor of Arts in Communication | Concentration: Public Relations | Minors: Political Science and Spanish"
+university = "Berry College"
+[params.experience]
+enable = true
+[[params.experience.list]]
+company = "Knoxville Bar Association | Knoxville, TN"
+dates = "July 2020 - July 2021"
+details = ""
+title = "Programs Administrator"
+[[params.experience.list.items]]
+details = "Coordinated Continuing Legal Education events and service projects while managing communications with ten committees"
+[[params.experience.list.items]]
+details = "Performed administrative tasks including maintaining a database, organizing documents, distributing mail, and providing general support to staff and committees"
+[[params.experience.list.items]]
+details = "Wrote, designed, edited, and proofread content for promotional material including ads, emails, brochures, invitations, posters, and social media content"
+[[params.experience.list.items]]
+details = "Authored and implemented content for the website. Track and monitor member communications and the website to ensure usability, relevance, and timeliness"
+[[params.experience.list.items]]
+details = "Created newsletters with a refreshed, modernized layout, sent weekly to 1,700 members"
+[[params.experience.list]]
+company = "Summit Quest | Rome, GA"
+dates = "August 2016 - March 2020"
+details = "Summit Quest is a nonprofit providing strength, hope and service for children and families affected by cancer."
+title = "Media/PR & Community Outreach Intern"
+[[params.experience.list.items]]
+details = "Planned and prepared for monthly family-focused recreation events"
+[[params.experience.list.items]]
+details = "Designed and wrote promotional material for programs including flyers, tee shirts, and social media content"
+[[params.experience.list.items]]
+details = "Developed user experience for our website on Squarespace with focus on engaging photos and friendly faces"
+[[params.experience.list.items]]
+details = "Assessed children and family needs and fostered meaningful relationships with families"
+[[params.experience.list]]
+company = "Azimut Capital Management | Bologna, Italy"
+dates = "Fall 2019"
+details = ""
+title = "Environmental, Social, and Governance Research Intern"
+[[params.experience.list.items]]
+details = "Defined and summarized ESG (environmental, social, and governance principles) as a concept according to Principles of Responsible Investing"
+[[params.experience.list.items]]
+details = "Compared European framework for ESG to Corporate Social Responsibility practices in the United States"
+[[params.experience.list.items]]
+details = "Researched and compiled examples of ongoing, successful ESG initiatives"
+[[params.experience.list]]
+company = "Campus Carrier | Rome, GA"
+dates = "2018 - 2019"
+details = ""
+title = "Features Editor"
+[[params.experience.list.items]]
+details = "Wrote, designed, and published 24 feature articles for Berry College's student-run newspaper"
+[[params.experience.list.items]]
+details = "Developed interview skills through conversation with students, staff, and faculty, drawing out information needed to write engaging feature stories"
+[[params.experience.list.items]]
+details = "Collaborated across teams to build a cohesive and meaningful product"
+[[params.experience.list]]
+company = "El-Hibri Foundation | Washington, D.C."
+dates = "Summer 2017"
+details = ""
+title = "Communications Intern"
+[[params.experience.list.items]]
+details = "Used analytics to develop the organization's outreach strategy, analyzed data and recommended adjustments to increase reach"
+[[params.experience.list.items]]
+details = "Filmed and edited lecture videos"
+[[params.experience.list.items]]
+details = "Studied cornerstones of diversity and inclusion work"
+[params.information]
+enable = false
+[[params.information.list]]
+title = "Papers"
+[[params.information.list.items]]
+details = "2018 · Lorem Ipsum"
+[[params.information.list.items]]
+details = "2016 · Sed Fringilla"
+[[params.information.list]]
+details = "Climbing, Snowboarding, Photography, Travelling"
+title = "Interests"
+[params.interests]
+enable = false
+[[params.interests.list]]
+name = "Climbing"
+[[params.interests.list]]
+name = "Snowboarding"
+[[params.interests.list]]
+name = "Photography"
+[[params.interests.list]]
+name = "Travelling"
+[params.languages]
+enable = true
+[[params.languages.list]]
+level = "Native"
+name = "English"
+[[params.languages.list]]
+level = "Fluent"
+name = "Spanish"
+[params.profile]
+avatar = "avatar.jpeg"
+enable = true
+name = "Elisabeth Martin"
+tagline = "Communications Specialist"
+[params.projects]
+enable = false
+[[params.projects.list]]
+meta = "Open Source"
+tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+title = "Project Lorem Ipsum"
+[[params.projects.list]]
+meta = "Open Source"
+tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+title = "Project Sed Fringilla"
+[[params.projects.list]]
+meta = "Open Source"
+tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+title = "Project Praesent"
+[params.skills]
+enable = true
+[[params.skills.list]]
+title = "Technical"
+[[params.skills.list.items]]
+details = "Microsoft Office"
+[[params.skills.list.items]]
+details = "Proofreading"
+[[params.skills.list.items]]
+details = "Project Management"
+[[params.skills.list.items]]
+details = "Research & Writing"
+[[params.skills.list.items]]
+details = "Customer Service"
+[[params.skills.list.items]]
+details = "Social Media"
+[[params.skills.list.items]]
+details = "Email Marketing"
+[[params.skills.list.items]]
+details = "Content Development"
+[[params.skills.list.items]]
+details = "Graphics and Layout Design"
+[[params.skills.list.items]]
+details = "Website Editing"
+[[params.skills.list.items]]
+details = "Audio & Video Setup"
+[[params.skills.list]]
+title = "Attributes"
+[[params.skills.list.items]]
+details = "Organized"
+[[params.skills.list.items]]
+details = "Eager to Learn"
+[[params.skills.list.items]]
+details = "Focused"
+[[params.skills.list.items]]
+details = "Mission-Driven"
+[[params.skills.list.items]]
+details = "Team Player"
+[[params.skills.list.items]]
+details = "Self-Starter"
+[[params.skills.list.items]]
+details = "Reliable"
+[[params.skills.list.items]]
+details = "Adaptive"
+[[params.skills.list.items]]
+details = "Proactive"
+[[params.skills.list.items]]
+details = "Detail-Oriented"
+[[params.skills.list.items]]
+details = "Meticulous"
+[[params.skills.list.items]]
+details = "Thoughtful"
+[[params.skills.list.items]]
+details = "Intuitive"
+[params.social]
+enable = true
+[[params.social.list]]
+icon = "fab fa-linkedin"
+title = "elisabethmartin0"
+url = "//linkedin.com/in/elisabethmartin0"
+[params.summary]
+enable = true
+text = "I've grown my interest for corporate social responsibility, clever PR & marketing campaigns, and social issues through varied work experience in nonprofit organizations. If you want to chat about an ad campaign you love, The Daily, event planning in a pandemic, or what you thought of that company's latest statement, we'd probably hit it off. Let's connect!"
